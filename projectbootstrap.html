@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        .custom-toggler.navbar-toggler {
+            border-color: lightgreen;
+            border: solid lightgreen 5px;
+        }
+        /* Setting the stroke to green using rgb values (0, 128, 0) */
+          
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        .a1{
+            height: 550px;
+        }
+        .v1 li{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+    </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top" > 
+          <button class="navbar-toggler custom-toggler ml-auto"data-target="#n1" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="n1">
+            <ul class="navbar-nav">
+                <li class="nav-item m-auto">
+                    <a href="home.html" class="nav-link text-white">Home</a>
+                </li> 
+                <li class="nav-item m-auto">
+                    <a href="about.html" class="nav-link text-white">About Us</a>
+                </li>
+                <li class="nav-item m-auto">
+                    <a href="contactus.html" class="nav-link text-white">Contact Us</a>
+                </li>
+                <li class="nav-item m-auto">
+                    <a href="Gallery.html" class="nav-link text-white">Gallery</a>
+                </li>
+            </ul>
+            <button class="btn btn-gray ml-auto" data-target="#v1" data-toggle="modal">Login</button>
+            <button class="btn btn-gray m-2" data-target="#v2" data-toggle="modal">Signup</button> 
+        </div>
+      </nav>
+    
+      <div class="modal" id="v1"> 
+        <div class="modal-dialog">
+        <div class="modal-content">
+               <div class="modal-header"> 
+                   <h2> Login</h2>
+                </div>
+               <div class="modal-body"> 
+                   <p>Login content</p>
+                </div>
+               <div class="modal-footer">footer
+  </div>
+   </div>
+    </div>  
+  </div>  
+    <div class="modal" id="v2"> 
+        <div class="modal-dialog">
+        <div class="modal-content">
+               <div class="modal-header"> 
+                   <h2> Signup</h2>
+                </div>
+               <div class="modal-body"> 
+                   <p>Signup content</p>
+                </div>
+               <div class="modal-footer">footer
+  </div>
+   </div>
+    </div>  
+  </div>  
+  <div class="carousel slide" data-ride="carousel"id="u1">
+      <ol class="carousel-indicators v1">
+          <li data-slide-to="0" data-target="#u1"></li>
+          <li data-slide-to="1" data-target="#u1"></li>
+          <li data-slide-to="2" data-target="#u1"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item active a1">
+            <img class="d-block w-100" src="cute.jpg" alt="">
+            <div class="carousel-caption"><p>Cute</p></div>
+          </div>
+          <div class="carousel-item a1 ">
+              <img class="d-block w-100" src="warrior.jpg">
+              <div class="carousel-caption"><p>Iam warrior</p></div>
+        </div>
+        <div class="carousel-item a1">
+              <img class="d-block w-100" src="Pixel.jpg">
+              <div class="carousel-caption"><p>Great Day</p></div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#u1" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#u1" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="jumbotron bg-dark">
+    <h2 class="text-center text-white">profiles</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+
+      <div class="card">
+        <img src="cool.png" alt="" class="card-img-top">
+        <div class="card-body">
+          <p>sai is software programmer and he is good at project </p>
+          <a href="#" class="btn btn-primary">See more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+
+      <div class="card">
+        <img src="businessman.jpg" alt="" class="card-img-top">
+        <div class="card-body">
+          <p>venky good in web developer and he is a web developer</p>
+          <a href="#" class="btn btn-primary">See more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      
+<div class="card ">
+  <img src="hero.png" alt="" class="card-img-top">
+  <div class="card-body">
+    <p>Ram  expert in web developer and he is a web developer</p>
+    <a href="#" class="btn btn-primary">See more</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
